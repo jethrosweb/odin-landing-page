@@ -66,6 +66,56 @@ header a {
     margin: 0 60px;
 }
 
+h2 {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    padding: 50px;
+}
+
+.image-buckets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.image-buckets div {
+    margin: 0 10px;
+}
+
+.image-buckets img {
+    width: 150px;
+}
+
+.image-buckets p {
+    width: 150px;
+    text-align: center;
+    color: rgb(108, 108, 108);
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 90px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.author {
+    float: right;
+    margin-right: 200px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 footer p {
     margin: 30px;
     color: #E5E7EB;
