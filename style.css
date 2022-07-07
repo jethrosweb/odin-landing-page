@@ -29,7 +29,7 @@ header a {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
-    padding: 80px 60px;
+    padding: 100px 60px;
 }
 
 .hero-main div {
@@ -64,6 +64,10 @@ header a {
     width: 400px;
     height: 200px;
     margin: 0 60px;
+}
+
+.bucket-section {
+    padding: 10px 0;
 }
 
 h2 {
@@ -114,6 +118,40 @@ h2 {
     margin-right: 200px;
     font-weight: bold;
     font-size: 20px;
+}
+
+.contact-box {
+    background-color: #3882F6;
+    margin: 100px 170px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact-box button {
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.contact-box p {
+    color: #F9FAF8;
+}
+
+.large {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.small {
+    color: #E5E7EB;
+    font-size: 13px;
+    margin-top: 5px;
 }
 
 footer p {
